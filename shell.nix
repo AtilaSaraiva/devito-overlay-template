@@ -18,5 +18,7 @@ mkShell {
   ];
 
   shellHooks = ''
+    export DEVITO_ARCH="gcc"
+    export DEVITO_LANGUAGE="openmp"
   '';
 }
